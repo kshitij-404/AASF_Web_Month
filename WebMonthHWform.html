@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AASF Web Month Practice Form</title>
+    </head>
+    <body style="background-image: url(https://images2.alphacoders.com/102/102670.jpg);">
+        <h2 style = "font-family:cursive">Cosmos Curiosity</h2>
+        <p>
+            The purpose of this form is to practice html for the AASF Web Month.<br>
+            This will test your interest and curiosity in the Cosmos<br>
+        </p>
+        <h3>Enter personal details</h3>
+        <form>
+            <label for="first_name">First name</label><br>
+            <input type="text" id="first_name" name="first_name"><br>
+            <label for="last_name">Last name</label><br>
+            <input type="text" id="last_name" name="last_name"><br><br>
+            Gender:<br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="reset">
+        </form>
+        <h3>Complete sign up details!</h3>
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br><br>
+            <input type="reset"><br>
+        </form>
+        <h3>Now Answer the questions Homo Sapien!</h3>
+        <img src="https://www.seekpng.com/png/full/262-2623544_faq-png-q-a-icon-png.png" height="100" width="100" alt="QandA">
+        <form>
+            Which aspects interests you?<br><br>
+            <input type="checkbox" id="int1" name="int2" value="General Relativity">
+            <label for="int1"> General Relativity</label><br>
+            <input type="checkbox" id="int2" name="in2" value="Special Relativity">
+            <label for="int2"> Special Relativity</label><br>
+            <input type="checkbox" id="int3" name="int3" value="Quantum Mechanics">
+            <label for="int3"> Quantum Mechanics</label><br>
+            <input type="checkbox" id="int4" name="int4" value="Beauty">
+            <label for="int4"> The Beauty of it!</label><br><br>
+
+            Which one do you find the coolest?<br><br>
+            <input type="radio" id="blackhole" name="cool" value="blackhole">
+            <label for="blackhole">Black Hole</label><br>
+            <input type="radio" id="quasar" name="cool" value="quasar">
+            <label for="quasar">Quasar</label><br>
+            <input type="radio" id="alien" name="cool" value="alien">
+            <label for="alien">Alien</label><br>
+            <input type="radio" id="dimension" name="cool" value="dimension">
+            <label for="dimension">Other dimensions</label><br><br>
+
+            On a scale of 1 to 10, 10 being highest, how much do you know about cosmos?<br><br>
+            <label for="info">Number (between 1 and 10):</label><br>
+            <input type="info" id="info" name="info" min="1" max="10"><br><br>
+
+            Which of the following book is your favourite?<br>
+            <label for="book">Choose one:</label>
+            <select id="book" name="book">
+              <option value="Bhot">Brief History of Time</option>
+              <option value="afih">Astrophysics for People in a Hurry</option>
+              <option value="tfoc">The Fabric of the Cosmos</option>
+              <option value="none">None</option>
+            </select> <br><br>
+
+            <b>Good Job! Have fun <a href="https://www.youtube.com/channel/UCR9sFzaG9Ia_kXJhfxtFMBA" target="_blank">exploring</a> the galaxies!</b><br>
+            <input type="reset"><br>
+            <input type="submit" value="Submit"><br><br>
+            <iframe src="https://www.spacex.com/" width="350" height="350" style="border:none;"></iframe><br><br>
+        </form>
+    </body>
+</html>
