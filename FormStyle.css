@@ -1,0 +1,81 @@
+body {
+    color: white;
+    background-image: url(https://www.99images.com/photos/wallpapers/creative-graphics/black-aesthetic-tumblr-laptopandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-4bdpu.jpg?v=1578179827);
+    margin: 20px;
+}
+
+.op {
+    border: whitesmoke solid 2px;
+    width: 550px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin: 15px 0px;
+}
+
+.op h2 {
+    font-family: cursive;
+}
+
+.pd {
+    border: whitesmoke dashed 2px;
+    width: 550px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px 0px;
+    font-family: sans-serif;
+}
+
+.sd {
+    border: whitesmoke dashed 2px;
+    width: 550px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px 0px;
+    font-family: sans-serif;
+}
+
+.hs {
+    border: whitesmoke solid 2px;
+    width: 550px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin: 15px 0px;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+input[type=reset] {
+    font-family: cursive;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    font-family: cursive;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input[type=reset]:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+iframe {
+    border-radius: 20px;
+}
